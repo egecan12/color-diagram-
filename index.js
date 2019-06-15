@@ -1,13 +1,10 @@
 
-		/* Declare and initialize global variables
-		-------------------------------------------------- */
 		var pageBg = document.querySelector('html');
 		var sliders = document.getElementsByTagName('input');
 		var rgb = [100, 0, 0];
 
 
-		/* Event handlers for range sliders
-		-------------------------------------------------- */
+	
 		for (var i = 0; i < sliders.length; i++) {
 			// Loop through the three range inputs and for each one, add an onchange event listener
 			sliders[i].onchange = function() {
@@ -25,8 +22,7 @@
 			}
 		}
 
-		/* Functions
-		-------------------------------------------------- */
+		
 		// STEP 1: Write a function called changeRgb that accepts two parameters, channel and value
 		//                  "blue", 200
 		function changeRgb(channel,value) {  
