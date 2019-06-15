@@ -1,4 +1,4 @@
-	<script>
+
 		/* Declare and initialize global variables
 		-------------------------------------------------- */
 		var pageBg = document.querySelector('html');
@@ -83,4 +83,4 @@
 		// STEP 12: Enjoy the application in your browser!
 
 		// This page inspired by https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values
-	</script>
+	
